@@ -8,11 +8,8 @@ const profile = {
     'ユーザーが直感的に使える Web 体験を、設計から実装・運用まで一貫して作る開発者です。React を中心に、API 連携や CI/CD を含めた継続的な改善を得意としています。'
 };
 
-const pagesTemplateUrl = 'https://<GitHubユーザー名>.github.io/toukanno/';
-const publishedUrl =
-  window.location.hostname.endsWith('github.io') || window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
-    ? window.location.href
-    : pagesTemplateUrl;
+const repositoryUrl = 'https://github.com/toukanno/toukanno/';
+const publishedUrl = 'https://toukanno.github.io/toukanno/';
 
 const skills = [
   { category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'] },
@@ -145,6 +142,7 @@ function App() {
       'footer',
       { className: 'mt-2 rounded-2xl border border-slate-800 bg-slate-900 p-6 text-sm text-slate-300' },
       React.createElement('p', null, 'Contact: toukanno@example.com'),
+      React.createElement('p', { className: 'mt-2' }, 'Repository: ', React.createElement('a', { className: 'text-brand-500 underline', href: repositoryUrl }, repositoryUrl)),
       React.createElement('p', { className: 'mt-2' }, 'GitHub Pages: ', React.createElement('a', { className: 'text-brand-500 underline', href: publishedUrl }, publishedUrl)),
       React.createElement('p', { className: 'mt-2 text-slate-400' }, '© ', new Date().getFullYear(), ' Toukanno')
     )

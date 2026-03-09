@@ -24,7 +24,6 @@ python3 -m http.server 4173
 
 ## GitHub Pages のリンク
 
-- 公開URLは次の形式です: `https://<GitHubユーザー名>.github.io/toukanno/`
-- 例: GitHubユーザー名が `octocat` の場合は `https://octocat.github.io/toukanno/`
+- このリポジトリ: `https://github.com/toukanno/toukanno/`
+- 公開URL: `https://toukanno.github.io/toukanno/`
 - デプロイ後は GitHub の **Actions** タブの `deploy` ジョブ出力でも最終URLを確認できます。
-
