@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Tokanno%20|%20統漢路&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=AI%20/%20Full-Stack%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Tokanno%20|%20トウカンノ&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=AI%20/%20Full-Stack%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
 
 ### Building AI agents, desktop apps and developer tools.
 
