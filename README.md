@@ -148,6 +148,22 @@ AI アプリ、開発者ツール、自動化基盤、デスクトップアプ�
 
 ---
 
+## Current Projects
+
+Now building — actively designing, developing, and iterating.
+
+現在設計・開発・改善中のプロジェクトです。
+
+| Project | Stack | Status |
+|---------|-------|--------|
+| AI Video Auto Editor v2 | Electron / React / FFmpeg / Whisper | Architecture redesign from v1 |
+| Electron Business App Template | Electron / TypeScript / SQLite | Production template for desktop apps |
+| AI App Idea Generator | Node.js / OpenRouter / GitHub Actions | Autonomous daily pipeline running |
+| Pokemon Battle Simulator | JavaScript | Custom stat engine + GBA-style UI |
+| RainbowMD | Electron / Capacitor / marked.js | Cross-platform AI editor |
+
+---
+
 ## Open Source
 
 | Project | Stack | Description |
