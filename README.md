@@ -1,91 +1,104 @@
 <div align="center">
 
-# トウカンノ（toukanno）
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Tokanno%20|%20統漢路&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=AI%20/%20Full-Stack%20Engineer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
 
-### AI Engineer / System Architect / Full-Stack Builder
+### Building AI agents, desktop apps and developer tools.
 
-Building AI tools, automation systems, and production-grade software.
+AIエージェント・デスクトップアプリ・開発者ツールを設計・実装しています。
 
-AI ツール・自動化システム・プロダクション品質のソフトウェアを設計・実装しています。
+`Full-Stack` `AI/LLM` `Electron` `OSS` `Automation`
 
-[![GitHub](https://img.shields.io/badge/GitHub-toukanno-181717?style=flat-square&logo=github)](https://github.com/toukanno)
+[![GitHub](https://img.shields.io/badge/GitHub-toukanno-181717?style=for-the-badge&logo=github)](https://github.com/toukanno)
+[![X](https://img.shields.io/badge/X-@memo__color-000000?style=for-the-badge&logo=x)](https://x.com/memo_color)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-toukanno-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/toukanno)
+[![Portfolio](https://img.shields.io/badge/Portfolio-toukanno.dev-000000?style=for-the-badge&logo=vercel)](https://toukanno.dev)
 
 </div>
 
 ---
 
-## About
-
-Engineer who **designs, builds, ships, and operates** software end-to-end.
-
-設計・実装・出荷・運用まで一貫してやり切るエンジニアです。
-
-I work across AI applications, developer tools, automation platforms, desktop apps, and scalable web systems. My approach is simple — solve real problems with working software, not prototypes.
-
-AI アプリ、開発者ツール、自動化基盤、デスクトップアプリ、Web システムを横断。
-プロトタイプではなく、動くソフトウェアで実際の問題を解決します。
-
----
-
-## Core Strengths
-
-| Domain | Level | What I deliver |
-|--------|-------|----------------|
-| Full-Stack Development | Expert | PHP / Laravel / Node.js / C# / React / TypeScript — 設計から運用まで |
-| AI Integration | Expert | マルチプロバイダー LLM 連携、プロンプト設計、AI ネイティブ UX |
-| Automation | Expert | CI/CD、自律コンテンツ生成、ゼロタッチ運用パイプライン |
-| System Architecture | Strong | モジュラー設計、v1→v2 の段階的リアーキテクチャ |
-| Desktop & Cross-Platform | Strong | Electron + Capacitor で単一コードベースから複数プラットフォーム |
-| Infrastructure | Strong | Docker / Linux / Git / GitHub Actions — ビルド・デプロイ自動化 |
-
----
-
 ## Tech Stack
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic_Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6366F1?style=flat-square)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+</div>
+
+---
+
+## Development Areas
 
 <table>
 <tr>
-<td valign="top" width="20%">
+<td align="center" width="33%">
 
-**Languages**
-- PHP
-- JavaScript
-- TypeScript
-- C#
-- Python
+**AI Applications**<br>
+AIアプリ開発
+
+LLM を活用したアプリケーション設計・実装
 
 </td>
-<td valign="top" width="20%">
+<td align="center" width="33%">
 
-**Backend**
-- Laravel
-- Node.js
-- REST API
-- System Design
+**LLM Agents**<br>
+AIエージェント
 
-</td>
-<td valign="top" width="20%">
-
-**Frontend / Desktop**
-- React
-- Electron
-- Tailwind CSS
-- Capacitor
+自律的に動作する AI エージェントの構築
 
 </td>
-<td valign="top" width="20%">
+<td align="center" width="33%">
 
-**Template / CMS**
-- Smarty
-- ESNA
+**Desktop Apps**<br>
+デスクトップアプリ
+
+Electron によるクロスプラットフォーム開発
 
 </td>
-<td valign="top" width="20%">
+</tr>
+<tr>
+<td align="center">
 
-**AI / Infrastructure**
-- OpenAI / Anthropic
-- OpenRouter / Whisper
-- Docker / Linux
-- GitHub Actions / Vercel
+**Automation Tools**<br>
+自動化ツール
+
+CI/CD・パイプライン・ゼロタッチ運用
+
+</td>
+<td align="center">
+
+**Open Source**<br>
+OSS 開発
+
+開発者コミュニティへの貢献
+
+</td>
+<td align="center">
+
+**Developer Tools**<br>
+開発者ツール
+
+生産性を上げるツール・SaaS の構築
 
 </td>
 </tr>
@@ -93,85 +106,24 @@ AI アプリ、開発者ツール、自動化基盤、デスクトップアプ�
 
 ---
 
+## About
+
+Engineer who designs, builds, and ships software end-to-end.
+
+設計・実装・出荷まで一貫してやり切るエンジニアです。AI アプリ、デスクトップアプリ、自動化基盤、開発者ツールを横断して開発しています。
+
+---
+
 ## Featured Projects
 
-### RainbowMD — AI Markdown Editor
-
-**Problem:** 既存エディタに AI 補助がなく、OS ごとに別アプリが必要だった。
-
-**Solution:** AI プロバイダーを切り替え可能なリアルタイム Markdown エディタ。1 コードベースで Windows / Mac / Linux / Android に対応。
-
-| Architecture | Detail |
-|-------------|--------|
-| Cross-platform | Electron + Capacitor — 1 source → 4 platforms |
-| AI Layer | Provider-agnostic — OpenAI, Anthropic, OpenRouter 切り替え |
-| Rendering | marked.js ベースのカスタムエンジンでリアルタイムプレビュー |
-
-**Outcome:** 設計・実装・ビルド・配布まで一人で完結。クロスプラットフォーム設計の実践例。
-
-[![source](https://img.shields.io/badge/source-markdown--electron-blue?style=flat-square&logo=github)](https://github.com/toukanno/markdown-electron)
-
----
-
-### Video Auto Editor — AI Video Pipeline
-
-**Problem:** 動画制作（台本・音声・字幕・レンダリング・投稿）が手作業で 1 本数時間。
-
-**Solution:** LLM 台本生成 → 音声合成 → Whisper 字幕 → FFmpeg レンダリング → YouTube/TikTok 自動投稿。手動ゼロの完全パイプライン。
-
-| Architecture | Detail |
-|-------------|--------|
-| v1 | Laravel backend — サーバーサイドバッチ処理（FFmpeg + Whisper + LLM）|
-| v2 | Electron + React — ローカルファースト、GUI で全工程制御 |
-| Design | モジュラーパイプライン — 各ステージが独立して実行可能 |
-
-**Outcome:** 制作時間を数時間→数分に短縮。実運用の知見で v1→v2 にアーキテクチャ刷新。
-
-[![v1](https://img.shields.io/badge/v1-Laravel-red?style=flat-square&logo=laravel)](https://github.com/toukanno/video-auto-editor-1)
-[![v2](https://img.shields.io/badge/v2-Electron-blue?style=flat-square&logo=electron)](https://github.com/toukanno/video-auto-editor-2)
-
----
-
-### AI Automation Platform
-
-**Problem:** AI トレンド追跡とアイデア評価が手動で、時間がかかり品質もばらつく。
-
-**Solution:** GitHub Actions で毎日・毎週自動実行。AI トレンド要約 + アプリアイデア生成 + 自動スコアリング。完全無人運用。
-
-| Architecture | Detail |
-|-------------|--------|
-| Pipeline | OpenRouter マルチモデル — 生成と評価を分離 |
-| Scheduling | GitHub Actions — daily / weekly スケジュール実行 |
-| Output | バージョン管理された Markdown — 完全なトレーサビリティ |
-
-**Outcome:** デプロイ後ゼロタッチで稼働中。自動化設計と運用設計の実例。
-
----
-
-## Current Projects
-
-Now building — actively designing, developing, and iterating.
-
-現在設計・開発・改善中のプロジェクトです。
-
-| Project | Stack | Status |
-|---------|-------|--------|
-| AI Video Auto Editor v2 | Electron / React / FFmpeg / Whisper | Architecture redesign from v1 |
-| Electron Business App Template | Electron / TypeScript / SQLite | Production template for desktop apps |
-| AI App Idea Generator | Node.js / OpenRouter / GitHub Actions | Autonomous daily pipeline running |
-| Pokemon Battle Simulator | JavaScript | Custom stat engine + GBA-style UI |
-| RainbowMD | Electron / Capacitor / marked.js | Cross-platform AI editor |
-
----
-
-## Open Source
-
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [RainbowMD](https://github.com/toukanno/markdown-electron) | Electron / React | AI クロスプラットフォーム Markdown エディタ |
-| [Video Auto Editor v2](https://github.com/toukanno/video-auto-editor-2) | Electron / React | AI 動画自動制作デスクトップアプリ |
-| [Video Auto Editor v1](https://github.com/toukanno/video-auto-editor-1) | PHP / Laravel | FFmpeg 連携の動画自動化バックエンド |
-| [Pokemon Battle Sim](https://github.com/toukanno/pokemon-custom-battle-simulator) | JavaScript | 種族値カスタム & GBA スタイルバトルシミュレータ |
+| Project | Description | Stack |
+|---------|------------|-------|
+| [**video-auto-editor-2**](https://github.com/toukanno/video-auto-editor-2) | AI video production pipeline — AI 動画自動制作 v2 | Electron / React / FFmpeg / Whisper |
+| [**video-auto-editor-1**](https://github.com/toukanno/video-auto-editor-1) | Server-side video automation — AI 動画自動制作 v1 | PHP / Laravel / FFmpeg |
+| [**electron-business-app-template**](https://github.com/toukanno/electron-business-app-template) | Desktop app template — 帳票管理デスクトップアプリ | Electron / React / TypeScript / SQLite |
+| [**ai-app-idea-generator**](https://github.com/toukanno/ai-app-idea-generator) | Autonomous idea generation — AI アプリアイデア自動生成 | Node.js / OpenRouter / GitHub Actions |
+| [**pokemon-custom-battle-simulator**](https://github.com/toukanno/pokemon-custom-battle-simulator) | GBA-style battle simulator — 種族値カスタムバトル | JavaScript |
+| [**asakai-app**](https://github.com/toukanno/asakai-app) | Standup meeting tool — 朝会支援アプリ | React / TypeScript |
 
 ---
 
@@ -182,13 +134,9 @@ Now building — actively designing, developing, and iterating.
 <img src="https://github-readme-stats.vercel.app/api?username=toukanno&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=toukanno&layout=compact&theme=tokyonight&hide_border=true" height="170" />
 
-</div>
-
-<div align="center">
+[![GitHub Streak](https://streak-stats.demolab.com?user=toukanno&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=toukanno&theme=tokyonight&no-frame=true&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=toukanno&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/toukanno/toukanno/output/github-contribution-grid-snake-dark.svg" />
@@ -202,26 +150,12 @@ Now building — actively designing, developing, and iterating.
 
 ---
 
-## Engineering Philosophy
-
-> Build systems that survive change.
-
-変化に耐えられる設計を最初から意識する。短期実装ではなく長期運用が前提。
-
-> Ship working software, not slide decks.
-
-スライドではなく、動くソフトウェアで価値を証明する。
-
-> Automate what humans shouldn't repeat.
-
-人間が繰り返すべきでない作業は、すべて自動化する。
-
----
-
 <div align="center">
 
-**Build tools that build more tools.**
+> **Build tools that build more tools.**
+>
+> ツールを作るためのツールを作る。
 
-ツールを作るためのツールを作る。開発者の生産性を指数関数的に上げる。
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" width="100%" />
 
 </div>
