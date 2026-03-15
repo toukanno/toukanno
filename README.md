@@ -196,6 +196,8 @@ Now building — actively designing, developing, and iterating.
   <img alt="github-snake" src="https://raw.githubusercontent.com/toukanno/toukanno/output/github-contribution-grid-snake.svg" />
 </picture>
 
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=toukanno&theme=tokyo-night&hide_border=true)
+
 </div>
 
 ---
@@ -220,6 +222,6 @@ Now building — actively designing, developing, and iterating.
 
 **Build tools that build more tools.**
 
-ツールを作るツールを作る。それがエンジニアリング。
+ツールを作るためのツールを作る。開発者の生産性を指数関数的に上げる。
 
 </div>
