@@ -1,6 +1,6 @@
 <div align="center">
 
-# トウカンロ（toukanno）
+# トウカンノ（toukanno）
 
 **Lead Engineer / Full-Stack Builder / Product-minded Architect**
 
