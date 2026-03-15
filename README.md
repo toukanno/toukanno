@@ -2,12 +2,11 @@
 
 # トウカンノ（toukanno）
 
-**Lead Engineer / Full-Stack Builder / Product-minded Architect**
+### AI Engineer / System Architect / Full-Stack Builder
 
-Electron, Web, AI integration, and automation — end-to-end from concept to production.
+Building AI tools, automation systems, and production-grade software.
 
-構想から実装・運用まで一人でやり切るフルスタックエンジニアです。
-設計・開発・自動化・AI連携を横断して、プロダクトを出荷します。
+AI ツール・自動化システム・プロダクション品質のソフトウェアを設計・実装しています。
 
 [![GitHub](https://img.shields.io/badge/GitHub-toukanno-181717?style=flat-square&logo=github)](https://github.com/toukanno)
 
@@ -15,20 +14,29 @@ Electron, Web, AI integration, and automation — end-to-end from concept to pro
 
 ---
 
+## About
+
+Engineer who **designs, builds, ships, and operates** software end-to-end.
+
+設計・実装・出荷・運用まで一貫してやり切るエンジニアです。
+
+I work across AI applications, developer tools, automation platforms, desktop apps, and scalable web systems. My approach is simple — solve real problems with working software, not prototypes.
+
+AI アプリ、開発者ツール、自動化基盤、デスクトップアプリ、Web システムを横断。
+プロトタイプではなく、動くソフトウェアで実際の問題を解決します。
+
+---
+
 ## Core Strengths
 
-Domains I own end-to-end — from design through deployment and operations.
-
-実装だけでなく、設計・構築・運用まで一貫して担当できる領域です。
-
-| Domain | Level | Focus |
-|--------|-------|-------|
-| Full-Stack Development | Expert | PHP / Laravel / Node.js / React / TypeScript — Web and desktop |
-| AI Integration | Expert | Multi-provider LLM orchestration, prompt engineering, AI-native UX |
-| Automation | Expert | CI/CD pipelines, autonomous content generation, zero-touch operations |
-| Desktop & Mobile | Strong | Electron + Capacitor cross-platform architecture |
-| Infrastructure | Strong | Docker, Linux, Git — build and deploy pipelines |
-| Product Delivery | Practical | Requirements to shipping, including build tooling and distribution |
+| Domain | Level | What I deliver |
+|--------|-------|----------------|
+| Full-Stack Development | Expert | PHP / Laravel / Node.js / C# / React / TypeScript — 設計から運用まで |
+| AI Integration | Expert | マルチプロバイダー LLM 連携、プロンプト設計、AI ネイティブ UX |
+| Automation | Expert | CI/CD、自律コンテンツ生成、ゼロタッチ運用パイプライン |
+| System Architecture | Strong | モジュラー設計、v1→v2 の段階的リアーキテクチャ |
+| Desktop & Cross-Platform | Strong | Electron + Capacitor で単一コードベースから複数プラットフォーム |
+| Infrastructure | Strong | Docker / Linux / Git / GitHub Actions — ビルド・デプロイ自動化 |
 
 ---
 
@@ -38,21 +46,30 @@ Domains I own end-to-end — from design through deployment and operations.
 <tr>
 <td valign="top" width="20%">
 
-**Backend**
+**Languages**
 - PHP
-- Laravel
-- Node.js
+- JavaScript
+- TypeScript
 - C#
 - Python
 
 </td>
 <td valign="top" width="20%">
 
-**Frontend**
+**Backend**
+- Laravel
+- Node.js
+- REST API
+- System Design
+
+</td>
+<td valign="top" width="20%">
+
+**Frontend / Desktop**
 - React
-- TypeScript
 - Electron
 - Tailwind CSS
+- Capacitor
 
 </td>
 <td valign="top" width="20%">
@@ -64,21 +81,11 @@ Domains I own end-to-end — from design through deployment and operations.
 </td>
 <td valign="top" width="20%">
 
-**AI**
+**AI / Infrastructure**
 - OpenAI / Anthropic
-- OpenRouter
-- Whisper
-- LLM Pipeline
-
-</td>
-<td valign="top" width="20%">
-
-**Infrastructure**
-- Docker
-- Linux
-- Git
-- GitHub Actions
-- Vercel
+- OpenRouter / Whisper
+- Docker / Linux
+- GitHub Actions / Vercel
 
 </td>
 </tr>
@@ -90,45 +97,35 @@ Domains I own end-to-end — from design through deployment and operations.
 
 ### RainbowMD — AI Markdown Editor
 
-**Challenge:** Existing markdown editors lack AI writing support and cross-platform consistency.
+**Problem:** 既存エディタに AI 補助がなく、OS ごとに別アプリが必要だった。
 
-既存のエディタは AI 補助がなく、プラットフォームごとに別アプリが必要だった。
+**Solution:** AI プロバイダーを切り替え可能なリアルタイム Markdown エディタ。1 コードベースで Windows / Mac / Linux / Android に対応。
 
-**What I built:** A real-time markdown editor with pluggable AI providers, designed to run natively on Windows, Mac, Linux, and Android from a single codebase.
+| Architecture | Detail |
+|-------------|--------|
+| Cross-platform | Electron + Capacitor — 1 source → 4 platforms |
+| AI Layer | Provider-agnostic — OpenAI, Anthropic, OpenRouter 切り替え |
+| Rendering | marked.js ベースのカスタムエンジンでリアルタイムプレビュー |
 
-AI プロバイダーを切り替え可能なリアルタイムエディタを、1つのコードベースで4プラットフォーム対応で構築。
+**Outcome:** 設計・実装・ビルド・配布まで一人で完結。クロスプラットフォーム設計の実践例。
 
-**Architecture:**
-- Electron + Capacitor for cross-platform desktop/mobile from one source
-- Provider-agnostic AI layer supporting OpenAI, Anthropic, and OpenRouter
-- Custom rendering engine built on marked.js for real-time preview
-
-**Result:** A single codebase serving 4 platforms with seamless AI-assisted writing.
-
-設計から実装、ビルド、配布まで一人で完結。クロスプラットフォーム設計の実践例。
-
-[![Repo](https://img.shields.io/badge/source-markdown--electron-blue?style=flat-square&logo=github)](https://github.com/toukanno/markdown-electron)
+[![source](https://img.shields.io/badge/source-markdown--electron-blue?style=flat-square&logo=github)](https://github.com/toukanno/markdown-electron)
 
 ---
 
 ### Video Auto Editor — AI Video Pipeline
 
-**Challenge:** Manual video production (scripting, voiceover, subtitles, rendering, publishing) takes hours per video.
+**Problem:** 動画制作（台本・音声・字幕・レンダリング・投稿）が手作業で 1 本数時間。
 
-動画制作の全工程（台本・音声・字幕・レンダリング・投稿）が手作業で、1本あたり数時間かかっていた。
+**Solution:** LLM 台本生成 → 音声合成 → Whisper 字幕 → FFmpeg レンダリング → YouTube/TikTok 自動投稿。手動ゼロの完全パイプライン。
 
-**What I built:** An end-to-end automated pipeline that generates scripts via LLM, synthesizes voice, auto-generates subtitles with Whisper, renders video with FFmpeg, and publishes to YouTube/TikTok — zero manual steps.
+| Architecture | Detail |
+|-------------|--------|
+| v1 | Laravel backend — サーバーサイドバッチ処理（FFmpeg + Whisper + LLM）|
+| v2 | Electron + React — ローカルファースト、GUI で全工程制御 |
+| Design | モジュラーパイプライン — 各ステージが独立して実行可能 |
 
-LLM で台本生成 → 音声合成 → Whisper で字幕 → FFmpeg でレンダリング → 自動投稿。手動ゼロの完全パイプラインを構築。
-
-**Architecture:**
-- v1: Laravel backend — server-side batch processing (FFmpeg + Whisper + LLM)
-- v2: Electron + React desktop app — local-first with full GUI control
-- Modular pipeline: each stage (script, voice, subtitle, render, publish) runs independently
-
-**Result:** Reduced per-video production time from hours to minutes. Two architecture iterations informed by real usage.
-
-実運用から得た知見で v1 → v2 にアーキテクチャを刷新。設計判断の根拠を実績で持っている。
+**Outcome:** 制作時間を数時間→数分に短縮。実運用の知見で v1→v2 にアーキテクチャ刷新。
 
 [![v1](https://img.shields.io/badge/v1-Laravel-red?style=flat-square&logo=laravel)](https://github.com/toukanno/video-auto-editor-1)
 [![v2](https://img.shields.io/badge/v2-Electron-blue?style=flat-square&logo=electron)](https://github.com/toukanno/video-auto-editor-2)
@@ -137,22 +134,17 @@ LLM で台本生成 → 音声合成 → Whisper で字幕 → FFmpeg でレン�
 
 ### AI Automation Platform
 
-**Challenge:** Staying current with AI trends and evaluating app ideas is time-consuming and inconsistent.
+**Problem:** AI トレンド追跡とアイデア評価が手動で、時間がかかり品質もばらつく。
 
-AI トレンドの追跡やアイデア評価を人手でやると、時間がかかり品質もばらつく。
+**Solution:** GitHub Actions で毎日・毎週自動実行。AI トレンド要約 + アプリアイデア生成 + 自動スコアリング。完全無人運用。
 
-**What I built:** A fully autonomous pipeline running on GitHub Actions — daily AI trend summaries, weekly app idea generation with automated scoring, and structured reports. No manual intervention required.
+| Architecture | Detail |
+|-------------|--------|
+| Pipeline | OpenRouter マルチモデル — 生成と評価を分離 |
+| Scheduling | GitHub Actions — daily / weekly スケジュール実行 |
+| Output | バージョン管理された Markdown — 完全なトレーサビリティ |
 
-GitHub Actions で毎日・毎週自動実行。AI トレンド要約 + アプリアイデア生成 + 自動スコアリング。完全無人運用。
-
-**Architecture:**
-- OpenRouter multi-model pipeline for generation and evaluation
-- GitHub Actions scheduled workflows (daily / weekly)
-- Structured output to versioned markdown for full traceability
-
-**Result:** Continuous, zero-touch intelligence gathering running autonomously since deployment.
-
-デプロイ後は一切手を加えず稼働中。自動化の設計力と運用設計の実例。
+**Outcome:** デプロイ後ゼロタッチで稼働中。自動化設計と運用設計の実例。
 
 ---
 
@@ -160,10 +152,10 @@ GitHub Actions で毎日・毎週自動実行。AI トレンド要約 + アプ�
 
 | Project | Stack | Description |
 |---------|-------|-------------|
-| [RainbowMD](https://github.com/toukanno/markdown-electron) | Electron / React | AI-powered cross-platform markdown editor |
-| [Video Auto Editor v2](https://github.com/toukanno/video-auto-editor-2) | Electron / React | Automated video production desktop app |
-| [Video Auto Editor v1](https://github.com/toukanno/video-auto-editor-1) | PHP / Laravel | Video automation backend with FFmpeg |
-| [Pokemon Battle Sim](https://github.com/toukanno/pokemon-custom-battle-simulator) | JavaScript | Custom stats & GBA-style battle simulator |
+| [RainbowMD](https://github.com/toukanno/markdown-electron) | Electron / React | AI クロスプラットフォーム Markdown エディタ |
+| [Video Auto Editor v2](https://github.com/toukanno/video-auto-editor-2) | Electron / React | AI 動画自動制作デスクトップアプリ |
+| [Video Auto Editor v1](https://github.com/toukanno/video-auto-editor-1) | PHP / Laravel | FFmpeg 連携の動画自動化バックエンド |
+| [Pokemon Battle Sim](https://github.com/toukanno/pokemon-custom-battle-simulator) | JavaScript | 種族値カスタム & GBA スタイルバトルシミュレータ |
 
 ---
 
@@ -174,6 +166,12 @@ GitHub Actions で毎日・毎週自動実行。AI トレンド要約 + アプ�
 <img src="https://github-readme-stats.vercel.app/api?username=toukanno&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=toukanno&layout=compact&theme=tokyonight&hide_border=true" height="170" />
 
+</div>
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=toukanno&theme=tokyonight&no-frame=true&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+
 [![GitHub Streak](https://streak-stats.demolab.com?user=toukanno&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
@@ -182,24 +180,24 @@ GitHub Actions で毎日・毎週自動実行。AI トレンド要約 + アプ�
 
 ## Engineering Philosophy
 
-> Design exists to reduce the cost of future changes.
+> Build systems that survive change.
 
-変化に耐えられる設計を最初から意識しています。短期実装ではなく長期運用を前提に設計します。
+変化に耐えられる設計を最初から意識する。短期実装ではなく長期運用が前提。
 
-> Implementation isn't done when it runs — it's done when it's operationalized.
+> Ship working software, not slide decks.
 
-「動いた」で終わりではなく、運用に乗せて初めて完成と考えます。
+スライドではなく、動くソフトウェアで価値を証明する。
 
-> UI is not decoration — it's a tool that accelerates decision-making.
+> Automate what humans shouldn't repeat.
 
-UI は見た目ではなく、ユーザーの意思決定を速くする道具です。
+人間が繰り返すべきでない作業は、すべて自動化する。
 
 ---
 
 <div align="center">
 
-**If it can be automated, it should be.**
+**Build tools that build more tools.**
 
-自動化できるものは、すべて自動化する。
+ツールを作るツールを作る。それがエンジニアリング。
 
 </div>
