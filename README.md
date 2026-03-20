@@ -17,6 +17,14 @@ AIエージェント・デスクトップアプリ・開発者ツールを設計
 
 ---
 
+## About
+
+Engineer who designs, builds, and ships software end-to-end — from AI agents to desktop apps.
+
+設計から実装・出荷まで一貫してやり切るエンジニア。AI アプリ、デスクトップアプリ、自動化基盤、開発者ツールを横断して開発しています。
+
+---
+
 ## Tech Stack
 
 <div align="center">
@@ -106,14 +114,6 @@ OSS 開発
 
 ---
 
-## About
-
-Engineer who designs, builds, and ships software end-to-end.
-
-設計・実装・出荷まで一貫してやり切るエンジニアです。AI アプリ、デスクトップアプリ、自動化基盤、開発者ツールを横断して開発しています。
-
----
-
 ## Featured Projects
 
 | Project | Description | Stack |
@@ -124,6 +124,14 @@ Engineer who designs, builds, and ships software end-to-end.
 | [**ai-app-idea-generator**](https://github.com/toukanno/ai-app-idea-generator) | Autonomous idea generation — AI アプリアイデア自動生成 | Node.js / OpenRouter / GitHub Actions |
 | [**pokemon-custom-battle-simulator**](https://github.com/toukanno/pokemon-custom-battle-simulator) | GBA-style battle simulator — 種族値カスタムバトル | JavaScript |
 | [**asakai-app**](https://github.com/toukanno/asakai-app) | Standup meeting tool — 朝会支援アプリ | React / TypeScript |
+
+---
+
+## Now Working On
+
+- AI Agent framework for autonomous content pipelines — AI コンテンツ自動生成基盤
+- Video Auto Editor v2 architecture redesign — 動画自動制作アプリの設計刷新
+- OSS developer tools for Electron apps — Electron 向け開発者ツールの公開
 
 ---
 
@@ -155,6 +163,8 @@ Engineer who designs, builds, and ships software end-to-end.
 > **Build tools that build more tools.**
 >
 > ツールを作るためのツールを作る。
+
+![Visitors](https://komarev.com/ghpvc/?username=toukanno&color=58a6ff&style=flat-square&label=Profile+Views)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" width="100%" />
 
